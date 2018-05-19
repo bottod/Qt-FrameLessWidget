@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/Buttons">
+        <file alias="close">Source/Buttons/close.png</file>
+        <file alias="max">Source/Buttons/max.png</file>
+        <file alias="min">Source/Buttons/min.png</file>
+        <file alias="restore">Source/Buttons/restore.png</file>
+        <file alias="BtnCss">Source/Buttons.css</file>
+    </qresource>
+</RCC>

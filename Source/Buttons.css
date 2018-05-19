@@ -1,0 +1,67 @@
+/*最小化按钮*/
+QPushButton#ButtonMin
+{
+    border-image:url(:/Buttons/min) 0 81 0 0 ;
+}
+
+QPushButton#ButtonMin:hover
+{
+    border-image:url(:/Buttons/min) 0 54 0 27 ;
+}
+
+QPushButton#ButtonMin:pressed
+{
+    border-image:url(:/Buttons/min) 0 27 0 54 ;
+}
+
+/*最大化按钮*/
+QPushButton#ButtonMax
+{
+    border-image:url(:/Buttons/max) 0 81 0 0 ;
+}
+
+QPushButton#ButtonMax:hover
+{
+    border-image:url(:/Buttons/max) 0 54 0 27 ;
+}
+
+QPushButton#ButtonMax:pressed
+{
+    border-image:url(:/Buttons/max) 0 27 0 54 ;
+}
+
+/*还原按钮*/
+QPushButton#ButtonRestore
+{
+    border-image:url(:/Buttons/restore) 0 81 0 0 ;
+}
+
+QPushButton#ButtonRestore:hover
+{
+    border-image:url(:/Buttons/restore) 0 54 0 27 ;
+}
+
+QPushButton#ButtonRestore:pressed
+{
+    border-image:url(:/Buttons/restore) 0 27 0 54 ;
+}
+
+/*关闭按钮*/
+QPushButton#ButtonClose
+{
+    border-image:url(:/Buttons/close) 0 81 0 0 ;
+    border-top-right-radius:3 ;
+}
+
+QPushButton#ButtonClose:hover
+{
+    border-image:url(:/Buttons/close) 0 54 0 27 ;
+    border-top-right-radius:3 ;
+}
+
+QPushButton#ButtonClose:pressed
+{
+	/*上右下左*/
+    border-image:url(:/Buttons/close) 0 27 0 54 ;
+    border-top-right-radius:3 ;
+}

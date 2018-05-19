@@ -1,0 +1,9 @@
+一个基于Qt的widget实现的无标题窗口
+代码非常简短易懂；并且注释很多
+
+关于一些接口
+
+SetTitle(int );      //用于设置标题栏的高度
+SetButtonType(ButtonType)	//用于设置窗口类型
+
+具体参见cpp文件
